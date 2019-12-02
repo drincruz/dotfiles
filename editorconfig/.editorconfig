@@ -28,6 +28,14 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
+;; Rust
+;; https://github.com/rust-lang/rust/blob/master/src/doc/style/style/whitespace.md
+[*.rs]
+indent_size = 4
+indent_style = space
+insert_final_newline = false
+trim_trailing_whitespace = true
+
 ;; from https://github.com/microsoft/TypeScript/blob/master/.editorconfig
 [*.{ts,json,js}]
 end_of_line = crlf
