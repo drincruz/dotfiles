@@ -11,7 +11,7 @@ indent_size = 2
 ;; C++
 [**.{cc,cpp,h}]
 indent_style = space
-indent_size = 2 
+indent_size = 2
 
 [**.{ex,exs}]
 indent_style = space
@@ -58,3 +58,20 @@ indent_size = 2
 indent_style = space
 max_line_length = 80
 trim_trailing_whitespace = true
+
+;; Kotlin
+;; From https://github.com/pinterest/ktlint#editorconfig
+[*.{kt,kts}]
+# possible values: number (e.g. 2), "unset" (makes ktlint ignore indentation completely)
+indent_size=4
+# true (recommended) / false
+insert_final_newline=true
+# possible values: number (e.g. 120) (package name, imports & comments are ignored), "off"
+# it's automatically set to 100 on `ktlint --android ...` (per Android Kotlin Style Guide)
+max_line_length=off
+indent_style = space
+
+;; Python
+[*.py]
+indent_style = space
+indent_size = 4
