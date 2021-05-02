@@ -4,6 +4,7 @@ set shiftwidth=4	"Indent/outdent by four columns"
 set shiftround		"Always indent/outdent to the nearest tabstop"
 set term=xterm
 set expandtab
+set number
 set relativenumber
 filetype indent on
 
