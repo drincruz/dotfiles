@@ -1,0 +1,13 @@
+[core]
+    excludesfile = ~/.gitignore_global
+[user]
+    name = First Last
+    email = myhandle@email.com
+    signingkey = mysigningkey
+
+[gpg]
+    program = /path/to/gpg
+
+# Include custom .gitconfig if in personal dir
+[includeIf "gitdir:~/path/to/directory/"]
+    path = ~/path/to/directory/.gitconfig.personal

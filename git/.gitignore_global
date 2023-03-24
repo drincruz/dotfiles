@@ -1,0 +1,24 @@
+# Node
+npm-debug.log
+
+# Mac
+.DS_Store
+
+# WebStorm
+.idea/
+
+# vi
+*~
+
+# General
+log/
+*.log
+*.bak
+*.swp
+
+# Python
+venv/
+
+# Personal Tmp Space
+ajc.tmp*
+ajcTmp*
