@@ -12,3 +12,4 @@ autocmd BufRead,BufNewFile *.py2 set filetype=python
 autocmd BufRead,BufNewFile *.py3 set filetype=python
 
 hi Comment ctermfg=LightBlue
+colorscheme evening "evening, elflord, darkblue, morning, desert"
